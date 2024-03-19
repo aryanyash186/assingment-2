@@ -1,0 +1,418 @@
+body {
+    .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+header nav div .padding1 {
+    padding-left: 150px;
+    width: 450px;
+}
+
+header nav div .padding2 {
+    padding-right: 150px;
+    padding-left: 300px;
+}
+
+header nav div ul li {
+    padding-left: 20px;
+    font-weight: bolder;
+}
+
+.bgclr {
+    background-color: whitesmoke;
+    padding-bottom: 100px;
+}
+
+.section1 {
+    max-width: 80%;
+    max-height: 800px;
+    margin: 0% auto;
+    display: flex;
+    padding-top: 50px;
+}
+
+.div1,
+.div2 {
+    max-width: 50%;
+}
+
+.div2 img {
+    width: 550px;
+    padding-left: 50px;
+}
+
+.div1 .color1 {
+    color: #76c27e;
+    text-transform: uppercase;
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+}
+
+.div1 .color2 {
+    color: rgba(0, 0, 32, 0.705);
+    text-transform: uppercase;
+}
+
+.paragraph {
+    max-width: 400px;
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.color1,
+.color2 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.button {
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #76c27e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button img {
+    max-width: 40px;
+    padding-right: 10px;
+}
+
+.section2,
+.section3 {
+    max-width: 80%;
+    margin: 0% auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.section2 h1,
+.section3 h1 {
+    font-weight: bolder;
+    color: rgba(0, 0, 32, 0.705);
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.cardsec .carddiv .cardbdr {
+    border: none;
+    border-radius: 20px;
+}
+
+.cardwidth {
+    height: 300px;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 25px auto;
+}
+
+.cardwidth img {
+    height: 100%;
+    width: auto;
+    padding: 20px;
+}
+
+.cardsec .carddiv .cardbdr .contain h5 {
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgba(0, 0, 32, 0.705);
+}
+
+.cardsec .carddiv .cardbdr .contain p {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.cardsec .carddiv .cardbdr .pricecard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 15px;
+}
+
+.cardsec .carddiv .cardbdr .pricecard h1 {
+    color: goldenrod;
+    padding-top: 50px;
+}
+
+.section4 {
+    max-width: 80%;
+    max-height: 500px;
+    margin: 0% auto;
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.section4 .lastcard,
+.lastimg {
+    max-width: 50%;
+}
+
+.section4 .lastimg img {
+    width: 100%;
+}
+
+.section4 .lastcard {
+    max-width: 100%;
+
+}
+
+.section4 .lastcard .fastcard {
+    width: 90%;
+    display: flex;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.section4 .lastcard .fastcard img {
+    width: 90px;
+    height: 90px;
+    padding-right: 20px;
+}
+
+.section4 .lastcard .fastcard h5 {
+    font-size: 20px;
+    color: rgba(0, 0, 32, 0.705);
+    font-weight: bolder;
+}
+
+.section4 .lastcard .fastcard p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: 600;
+}
+
+footer {
+    background-color: blueviolet;
+    max-height: auto;
+}
+
+.footersec {
+    max-width: 90%;
+    max-height: auto;
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.foot {
+    max-width: 33%;
+    max-height: auto;
+}
+
+.foot h5,
+p {
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.foot h5 {
+    font-weight: bold;
+}
+
+.foot input {
+    margin-right: 5px;
+}
+
+.foot input::placeholder {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.inputbtn button {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.inputbtn button,
+input {
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    height: 30px;
+}
+
+.inputbtn {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.iconclr1,
+.iconclr2,
+.iconclr3,
+.iconclr4 {
+    padding: 5px;
+}
+
+.iconclr1:hover {
+    color: blue;
+}
+
+.iconclr2:hover {
+    color: skyblue;
+}
+
+.iconclr3:hover {
+    color: rgba(255, 68, 0, 0.349);
+}
+
+.iconclr4:hover {
+    color: red;
+}
+
+.footbar {
+    background-color: rgb(0, 0, 70);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.footbar p {
+    color: white;
+    padding-top: 15px;
+}
+
+@media (max-width: 500px) {
+    header nav div .padding1 {
+        padding-left: 10px;
+        width: 200px;
+    }
+
+    header nav div .padding2 {
+        padding-left: 10px;
+    }
+
+    header nav div ul li {
+        padding-left: 0px;
+    }
+
+    .bgclr {
+        padding-bottom: 50px;
+    }
+
+    .section1 {
+        max-width: 80%;
+        max-height: auto;
+        margin: 0% auto;
+        flex-direction: column-reverse;
+        padding-top: 50px;
+    }
+
+    .div1,
+    .div2 {
+        max-width: 100%;
+    }
+
+    .div2 img {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .paragraph {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .color1,
+    .color2 {
+        font-size: 30px;
+    }
+
+    .button {
+        font-size: 10px;
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+
+    .button img {
+        max-width: 30px;
+        padding-right: 5px;
+    }
+
+    .section2 h1,
+    .section3 h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .section4 {
+        max-height: 700px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        flex-direction: column-reverse;
+    }
+
+    .section4 .lastcard,
+    .lastimg {
+        max-width: 100%;
+    }
+
+    .section4 .lastimg {
+        margin: 30px auto;
+    }
+
+    .section4 .lastcard .fastcard {
+        width: 100%;
+    }
+
+    .footersec {
+        max-height: 500px;
+        max-width: 80%;
+        flex-direction: column;
+    }
+
+    .foot {
+        max-width: 100%;
+    }
+
+    .foot1 {
+        padding-top: 20px;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .iconclr1,
+    .iconclr2,
+    .iconclr3,
+    .iconclr4 {
+        padding: 10px;
+    }
+
+    .footbar p {
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+    }
+}
